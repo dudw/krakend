@@ -560,7 +560,7 @@ const (
 	parallelMerger         = "parallel"
 	sequentialPropagateKey = "sequential_propagated_params"
 	defaultCombinerName    = "default"
-	typeKey                = "merger_type"
+	typeKey                = "strategy"
 )
 
 var responseCombiners = initResponseCombiners()
